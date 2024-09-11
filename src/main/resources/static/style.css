@@ -1,0 +1,65 @@
+body {
+    background-color: #d0f0c0; /* Color de fondo verde claro */
+    color: #444; /* Color de texto gris oscuro */
+    font-family: 'Arial', sans-serif; /* Fuente básica */
+}
+
+h1 {
+    color: #ff6347; /* Color de texto tomate */
+    text-align: center; /* Texto centrado */
+}
+
+p {
+    font-size: 22px; /* Tamaño de fuente grande para párrafos */
+    text-align: left; /* Texto alineado a la izquierda */
+}
+
+.container {
+    border: 4px solid #ff1493; /* Borde rosa intenso */
+    padding: 15px; /* Relleno ajustado */
+    margin: 15px; /* Margen ajustado */
+    background-color: #fff5ee; /* Fondo marfil claro */
+}
+
+button {
+    background-color: #4682b4; /* Fondo azul acero */
+    color: #ffffff; /* Texto blanco */
+    border: 3px solid #ffd700; /* Borde dorado */
+    padding: 12px 24px; /* Relleno ajustado */
+    font-size: 16px; /* Tamaño de fuente adecuado */
+    cursor: pointer; /* Cambia el cursor a mano */
+    margin-top: 15px; /* Espacio extra arriba */
+}
+
+a {
+    color: #6a5acd; /* Color de enlace azul pálido */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado en hover */
+}
+
+#responseContainer {
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background-color: #e9f5ff;
+    padding: 15px;
+    overflow-x: auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+td {
+    background-color: #f2f2f2;
+}

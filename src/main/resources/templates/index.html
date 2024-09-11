@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>LogService Client</title>
+    <link th:href="@{/style.css}" rel="stylesheet" type="text/css">
+    <script th:src="@{/script.js}" defer></script>
+</head>
+<body>
+<h1>LogService Client</h1>
+<label for="messageInput">Ingrese su mensaje:</label>
+<input type="text" id="messageInput" placeholder="Escribe tu mensaje aquí">
+<button id="sendButton">Enviar</button>
+
+    <div class="container">
+        <h2>Respuesta del Servidor:</h2>
+        <div id="responseContainer">
+
+        </div>
+    </div>
+</body>
+</html>
