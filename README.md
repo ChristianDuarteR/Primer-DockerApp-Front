@@ -40,8 +40,3 @@ El proyecto está configurado para ejecutarse en Docker con las siguientes insta
 1. Una instancia de MongoDB
 2. Una instancia de RoundRobinApp
 3. Tres instancias de la aplicación Spring Boot
-
-### Architecture
-
-- Este proyecto se basa en la siguiente arquitectura
-  ![img.png](img.png)
